@@ -11,7 +11,7 @@ def get_conn():
     conn = pymysql.connect(host='localhost',
                                 user='root',
                                 password='root',
-                                db='python',
+                                db='python123',
                                 charset='utf8mb4',
                                 cursorclass=pymysql.cursors.DictCursor)
     return conn
